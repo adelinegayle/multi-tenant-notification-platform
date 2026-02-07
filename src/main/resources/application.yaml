@@ -34,7 +34,9 @@ app:
     cron: "0 0 0 * * *"   # midnight (will manually trigger first)
 
   messaging:
+    exchange: notification.exchange
     queue: notification.events
+    routingKey: notification.events
 
 management:
   endpoints:
