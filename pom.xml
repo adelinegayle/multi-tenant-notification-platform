@@ -61,6 +61,7 @@
         <dependency>
             <groupId>io.github.resilience4j</groupId>
             <artifactId>resilience4j-ratelimiter</artifactId>
+            <version>2.3.0</version>
         </dependency>
 
         <!-- Testing (single standard starter) -->
@@ -75,12 +76,6 @@
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>io.github.resilience4j</groupId>
-            <artifactId>resilience4j-ratelimiter</artifactId>
-            <version>2.3.0</version>
         </dependency>
     </dependencies>
 
